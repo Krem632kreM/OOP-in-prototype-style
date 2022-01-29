@@ -52,12 +52,7 @@ const domElement = new DomElement('#block', '100px', '100px', 'red', '12px', 'K.
 document.addEventListener('DOMContentLoaded', function () {
 domElement.create();
 });
-/*
-    const elem = document.createElement('div')
-    elem.classList.add('test')
-    document.body.append(elem)
-    elem.style.cssText=`position: absolute; height: 100px;width: 100px;background: green;`;
-*/
+
 
 
 
